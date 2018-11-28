@@ -1,6 +1,7 @@
 // https://eslint.org/docs/user-guide/configuring
 
 module.exports = {
+
   root: true,
   parserOptions: {
     parser: 'babel-eslint'
@@ -24,6 +25,10 @@ module.exports = {
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    indent: ["error", 4],
+    'no-useless-return': 0,
+    'no-trailing-spaces': 0,
   }
+  
 }
