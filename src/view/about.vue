@@ -1,6 +1,6 @@
 <template>
     <div class="app-container-index">
-        <img class="index-img" src="../assets/bg.jpg"/>
+        关于我们
     </div>
 </template>
 
@@ -10,7 +10,7 @@
  */
 
 export default {
-    name: 'ViewIndex',
+    name: 'ViewAbout',
     data () {
         return {
             msg: 'Welcome to Your Vue.js App'
@@ -50,10 +50,7 @@ export default {
 .app-container-index {
     width: 1000px;
     margin: 0 auto;
-    height: 550px;
-    .index-img {
-        width: 1000px;
-        height: 550px;
-    }
+    height: 50px;
+    background-color: blue;
 }
 </style>

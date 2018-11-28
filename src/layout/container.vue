@@ -1,5 +1,6 @@
 <template>
     <div class="app-container">
+        <router-view></router-view>
     </div>
 </template>
 
@@ -38,7 +39,7 @@ export default {
          * 初始化函数
          */
         init () {
-            alert('tb Init')
+            
         }
     }
 
@@ -50,6 +51,5 @@ export default {
     width: 1000px;
     margin: 0 auto;
     height: 550px;
-    background: #000;
 }
 </style>
