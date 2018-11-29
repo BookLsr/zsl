@@ -48,8 +48,9 @@ export default {
 
 <style lang="less">
 .app-container {
+    display: flex;
     width: 1000px;
     margin: 0 auto;
-    height: 550px;
+    height: 450px;
 }
 </style>

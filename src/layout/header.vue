@@ -64,6 +64,21 @@ export default {
          * 初始化函数
          */
         init () {
+            if (this.$route.path.indexOf('index') > 0) {
+                this.nowIndex = 0
+            }
+            if (this.$route.path.indexOf('product') > 0) {
+                this.nowIndex = 1
+            }
+            if (this.$route.path.indexOf('news') > 0) {
+                this.nowIndex = 2
+            }
+            if (this.$route.path.indexOf('about') > 0) {
+                this.nowIndex = 3
+            }
+            if (this.$route.path.indexOf('call') > 0) {
+                this.nowIndex = 4
+            }
         },
 
         /**

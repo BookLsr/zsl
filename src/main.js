@@ -3,8 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
+import Slide from '@/components/slide'
 Vue.config.productionTip = false
+Vue.use(Slide)
 
 /* eslint-disable no-new */
 new Vue({
