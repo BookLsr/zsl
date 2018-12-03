@@ -164,7 +164,7 @@ export default {
                 }
                 .menu {
                     font-family: "微软雅黑";
-                    padding-top: 15px;
+                    padding-top: 30px;
                     width: 90px;
                     height: 50px;
                     display: block;

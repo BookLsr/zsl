@@ -51,6 +51,6 @@ export default {
     display: flex;
     width: 1000px;
     margin: 0 auto;
-    height: 450px;
+    height: 500px;
 }
 </style>
